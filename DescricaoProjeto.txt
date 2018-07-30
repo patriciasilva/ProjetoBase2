@@ -1,0 +1,22 @@
+O código fonte deve ser gravado no GitHub de onde você nos concederá acesso para obter e revisar.
+Utilizar a última versão do Selenium WebDriver disponível.
+[Opcional] Uma apresentação PPTX (ou PDF) deve ser preparada explicando: a arquitetura do projeto, as etapas em que foi desenvolvido. A apresentação deve ser gravada no Git.
+Projetos que usam frameworks como Serenity não serão aceitos.
+O projeto deve ser apresentado na sua reunião de mapa de carreira. 
+Vamos conferir as metas separadamente.
+Caso não atinga todas as metas poderá corrigir o projeto sem precisar esperar o próximo mapa de carreira.
+Durante a apresentação solicitaremos ou a correção de um script ou a criação de um novo.
+Não haverão pontuações parciais diferentes das apresentadas acima.
+Pessoas que já praticaram todas as metas deste projeto devem optar por outra prática.
+Não esperamos que a pessoa se vire sozinha. Ideal é ela buscar ajuda com as pessoas mais experientes da Base2.
+Metas:
+Implementar 50 scripts de testes que manipulem uma aplicação web (sugestões: Mantis ou TestLink) utilizando PageObjects.
+Alguns scripts devem ler dados de uma planilha Excel para implementar Data-Driven.
+Notem que 50 scripts podem cobrir mais de 50 casos de testes se usarmos Data-Driven. Em outras palavras, implementar 50 CTs usando data-driven não é a mesma coisa que implementar 50 scripts.
+Os casos de testes precisam ser executados em no mínimo três navegadores. Utilizando o Selenium Grid e um arquivo de configuração que determina o navegador que será usado.
+Gravar screenshots ou vídeo automaticamente dos casos de testes.
+O projeto deverá gerar um relatório de testes automaticamente com screenshots ou vídeos embutidos. Sugestões: Allure Report ou ExtentReport.
+A massa de testes deve ser preparada neste projeto, seja com scripts carregando massa nova no BD ou com restore de banco de dados.
+Um dos scripts deve injetar Javascript para executar alguma operação na tela. O objetivo aqui é exercitar a injeção de Javascript dentro do código do Selenium.
+Testes deverão ser agendados pelo Jenkins, CircleCI, TFS ou outra ferramenta de CI que 
+
